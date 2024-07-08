@@ -16,6 +16,7 @@ async function main() {
   // MIDDLEWARES
   // parse json body in request (for POST, PUT, PATCH requests)
   app.use(express.json());
+  app.use(express.static("public"));
   // allow CORS for local development (for production, you should configure it properly)
   app.use(
     cors({
