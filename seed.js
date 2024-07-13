@@ -16,7 +16,7 @@ dotenv.config(); // Load environment variables
 
 const users = [
   {
-    username: "Nevo",
+    username: "nevo",
     email: "john@example.com",
     password: "1234",
     firstName: "Nevo",
